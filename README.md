@@ -37,13 +37,19 @@ Aby zainstalować i uruchomić projekt lokalnie, wykonaj następujące kroki:
 $ git clone <repository-url>
 ```
 
-2. Instalacja pakietów
+2. Przejście do folderu z kodem
+
+```bash
+$ cd recruitment-board-game
+```
+
+3. Instalacja pakietów
 
 ```bash
 $ npm install
 ```
 
-3. Uruchomienie aplikacji
+4. Uruchomienie aplikacji
 
 ```bash
 $ npm run dev
