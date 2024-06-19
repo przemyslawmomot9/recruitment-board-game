@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-lato;
+}
+
+@layer components {
+  .btn-default {
+    @apply h-10 bg-light-cream hover:bg-light-cream-dark text-pink w-full rounded shadow-lg;
+  }
+
+  .spinner {
+    @apply w-12 h-12 border-4 border-white border-b-transparent rounded-full inline-block box-border animate-spin;
+  }
+
+  .transition-default {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
